@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RepubliQ</string>
+    <string name="tittle">RepubliQ</string>
+    <string name="login">Login</string>
+    <string name="senha">Senha</string>
+    <string name="esqueceSenha">Esqueceu sua senha?</string>
+    <string name="lembre_de_mim">Lembre de mim</string>
+    <string name="entrar">Entrar</string>
+    <string name="Cadastrar">Cadastre-se</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.edu.ifsp.tcc.apprepublic.view.HomePage"
+    app:popupTheme="@style/AppTheme.PopupMenu">
+
+    <item
+        android:id="@+id/action_edit_profile"
+        android:title="Editar Perfil"
+        app:showAsAction="never" /> <!-- Configura "never" para evitar que esta opção apareça na barra de ação -->
+    <item
+        android:id="@+id/action_edit_password"
+        android:title="Trocar Senha"
+        app:showAsAction="never" /> <!-- Configura "never" para evitar que esta opção apareça na barra de ação -->
+
+    <item
+        android:id="@+id/action_list_residences"
+        android:title="Listar Residências"
+        app:showAsAction="never" /> <!-- Configura "never" para evitar que esta opção apareça na barra de ação -->
+
+    <item
+        android:id="@+id/action_list_user_solicition"
+        android:title="Residencias solicitadas"
+        app:showAsAction="never" /> <!-- Configura "never" para evitar que esta opção apareça na barra de ação -->
+
+    <item
+        android:id="@+id/action_prop_solicition"
+        android:title="Residencias suas solicitadas"
+        app:showAsAction="never" /> <!-- Configura "never" para evitar que esta opção apareça na barra de ação -->
+
+    <item
+        android:id="@+id/action_logout"
+        android:title="Logout"
+        app:showAsAction="never" /> <!-- Configura "never" para evitar que esta opção apareça na barra de ação -->
+
+</menu>

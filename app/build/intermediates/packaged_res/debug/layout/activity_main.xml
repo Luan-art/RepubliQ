@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="br.edu.ifsp.tcc.apprepublic.view.MainActivity">
+
+    <ImageView
+        android:id="@+id/image_logo"
+        android:layout_width="325dp"
+        android:layout_height="164dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="130dp"
+        android:maxHeight="130dp"
+        android:src="@drawable/republiq"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.065" />
+
+    <View
+        android:id="@+id/containerComponentes"
+        style="@style/ConteinerComponents"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_logo" />
+
+    <EditText
+        android:id="@+id/edittext_user"
+        android:hint="@string/login"
+        android:drawableEnd="@drawable/ic_login"
+        style="@style/Edit_Text"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="@id/containerComponentes"
+        app:layout_constraintEnd_toEndOf="@id/containerComponentes"
+        app:layout_constraintTop_toTopOf="@id/containerComponentes"/>
+
+    <EditText
+        android:id="@+id/edittext_password"
+        android:hint="@string/senha"
+        android:drawableEnd="@drawable/ic_eye"
+        android:inputType="textPassword"
+        style="@style/Edit_Text"
+        app:layout_constraintStart_toStartOf="@id/containerComponentes"
+        app:layout_constraintEnd_toEndOf="@id/containerComponentes"
+        app:layout_constraintTop_toBottomOf="@id/edittext_user"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_enter"
+        style="@style/Button"
+        android:layout_marginTop="16dp"
+        android:text="@string/entrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edittext_password" />
+
+    <CheckBox
+        android:id="@+id/lembreDeMim"
+        style="@style/CheckBox"
+        android:layout_marginTop="24dp"
+        android:textColor="@color/white"
+        android:text="@string/lembre_de_mim"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.612"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_enter" />
+
+    <TextView
+        android:id="@+id/text_cadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Cadastrar"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lembreDeMim"
+        app:layout_constraintVertical_bias="0.141" />
+
+    <TextView
+        android:id="@+id/esqueceuSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/esqueceSenha"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_cadastrar"
+        app:layout_constraintVertical_bias="0.141" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/esqueceuSenha"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
