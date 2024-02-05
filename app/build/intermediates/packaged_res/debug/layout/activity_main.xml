@@ -45,7 +45,7 @@
         app:layout_constraintStart_toStartOf="@id/containerComponentes"
         app:layout_constraintEnd_toEndOf="@id/containerComponentes"
         app:layout_constraintTop_toTopOf="@id/containerComponentes"/>
-    
+
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/password_toggle"
         android:layout_height="wrap_content"

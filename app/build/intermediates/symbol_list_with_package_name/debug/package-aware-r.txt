@@ -2973,6 +2973,7 @@ drawable eye_off
 drawable ic_arrow_back_black_24
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
+drawable ic_email
 drawable ic_eye
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -3460,6 +3461,7 @@ id parentPanel
 id parentRelative
 id parent_matrix
 id password_toggle
+id password_toggleConf
 id path
 id pathRelative
 id peekHeight
@@ -3510,7 +3512,6 @@ id senha
 id sharedValueSet
 id sharedValueUnset
 id shortcut
-id showConSenha
 id showCustom
 id showHome
 id showSenha
@@ -3571,10 +3572,8 @@ id textBairro
 id textCEP
 id textCidade
 id textComplemento
-id textConfSenha
 id textDescricaoMoradia
 id textDescricaotitulo
-id textEmail
 id textEnd
 id textEnderecoMoradia
 id textEstado
@@ -3628,7 +3627,6 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id txtNovaSenha
 id unchecked
 id uniform
 id unlabeled
@@ -3895,6 +3893,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string alterar_senha
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
@@ -3908,6 +3907,8 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
+string confirmar_senha
+string email
 string entrar
 string error_a11y_label
 string error_icon_content_description
@@ -4020,11 +4021,16 @@ string mtrl_switch_track_decoration_path
 string mtrl_switch_track_path
 string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
+string mudar_senha
+string nome
+string nova_senha
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string pesquisar
+string preco
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
@@ -4034,6 +4040,7 @@ string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
 string tittle
+string visualizar
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

@@ -30,8 +30,8 @@ public class UpdatePassword extends AppCompatActivity implements UpdatePasswordM
     private CheckBox visivel;
     private CheckBox visivelCon;
 
-    private boolean isPasswordVisible = true;
-    private boolean isPasswordVisibleCon = true;
+//  private boolean isPasswordVisible = true;
+ // private boolean isPasswordVisibleCon = true;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,15 +53,15 @@ public class UpdatePassword extends AppCompatActivity implements UpdatePasswordM
             }
          });
 
-        visivel.setOnCheckedChangeListener((buttonView, isChecked) -> {
-            isPasswordVisible = isChecked;
-            togglePasswordVisibility(isPasswordVisible, edittextNovaSenha);
-        });
+   //     visivel.setOnCheckedChangeListener((buttonView, isChecked) -> {
+     //       isPasswordVisible = isChecked;
+       //     togglePasswordVisibility(isPasswordVisible, edittextNovaSenha);
+        //});
 
-        visivelCon.setOnCheckedChangeListener((buttonView, isChecked) -> {
-            isPasswordVisibleCon = isChecked;
-            togglePasswordVisibility(isPasswordVisibleCon, edittextConfirmarNovaSenha);
-        });
+       // visivelCon.setOnCheckedChangeListener((buttonView, isChecked) -> {
+         //   isPasswordVisibleCon = isChecked;
+           // togglePasswordVisibility(isPasswordVisibleCon, edittextConfirmarNovaSenha);
+        //});
     }
 
     private void findById() {
@@ -74,7 +74,7 @@ public class UpdatePassword extends AppCompatActivity implements UpdatePasswordM
         edittextConfirmarNovaSenha = findViewById(R.id.edittext_confirmarNovaSenha);
         btnAlterarSenha = findViewById(R.id.btn_alterarSenha);
         visivel = findViewById(R.id.showSenha);
-        visivelCon = findViewById(R.id.showConSenha);
+ //       visivelCon = findViewById(R.id.showConSenha);
     }
 
     public Context getContext() {

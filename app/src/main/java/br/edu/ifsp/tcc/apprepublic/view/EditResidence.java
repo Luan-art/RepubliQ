@@ -47,7 +47,6 @@ public class EditResidence extends AppCompatActivity implements EditResidenceMVP
 
     private HomeEntity home;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

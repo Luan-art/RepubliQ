@@ -14,13 +14,22 @@
     <color name="white">#FFFFFFFF</color>
     <color name="yellow">#EAC60B</color>
     <string name="Cadastrar">Cadastre-se</string>
+    <string name="alterar_senha">Alterar Senha</string>
     <string name="app_name">RepubliQ</string>
+    <string name="confirmar_senha">Confirmar Senha</string>
+    <string name="email">Email</string>
     <string name="entrar">Entrar</string>
     <string name="esqueceSenha">Esqueceu sua senha?</string>
     <string name="lembre_de_mim">Lembre de mim</string>
     <string name="login">Login</string>
+    <string name="mudar_senha">Mudar senha</string>
+    <string name="nome">Nome</string>
+    <string name="nova_senha">Nova Senha</string>
+    <string name="pesquisar">Pesquisar...</string>
+    <string name="preco">Preco</string>
     <string name="senha">Senha</string>
     <string name="tittle">RepubliQ</string>
+    <string name="visualizar">Visualizar</string>
     <style name="AppTheme.PopupMenu" parent="Widget.AppCompat.PopupMenu">
         <item name="android:popupBackground">@drawable/styles</item>
     </style>
