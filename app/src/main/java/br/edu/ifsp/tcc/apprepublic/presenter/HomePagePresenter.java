@@ -15,7 +15,7 @@ import br.edu.ifsp.tcc.apprepublic.mvp.HomePageMVP;
 import br.edu.ifsp.tcc.apprepublic.view.EditUser;
 import br.edu.ifsp.tcc.apprepublic.view.HomePage;
 import br.edu.ifsp.tcc.apprepublic.view.ListResidences;
-import br.edu.ifsp.tcc.apprepublic.view.MainActivity;
+import br.edu.ifsp.tcc.apprepublic.view.LoginActivity;
 import br.edu.ifsp.tcc.apprepublic.view.PropSolicites;
 import br.edu.ifsp.tcc.apprepublic.view.UpdatePassword;
 import br.edu.ifsp.tcc.apprepublic.view.UserSolicites;
@@ -114,7 +114,7 @@ public class HomePagePresenter implements HomePageMVP.Presenter {
     private void navigateToLoginScreen() {
         // Implemente a lógica para navegar para a tela de login
         // Por exemplo, criar uma Intent para a tela de login e iniciar a atividade
-        Intent intent = new Intent(context, MainActivity.class);
+        Intent intent = new Intent(context, LoginActivity.class);
         context.startActivity(intent);
 
         // Certifique-se de limpar as atividades anteriores da pilha

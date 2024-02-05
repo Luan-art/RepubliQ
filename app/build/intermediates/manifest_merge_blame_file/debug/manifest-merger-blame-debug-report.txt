@@ -128,8 +128,8 @@
 70-->C:\Users\PICHAU\StudioProjects\TheRepubliQApp\app\src\main\AndroidManifest.xml:55:13-37
 71        <activity
 71-->C:\Users\PICHAU\StudioProjects\TheRepubliQApp\app\src\main\AndroidManifest.xml:56:9-64:20
-72            android:name="br.edu.ifsp.tcc.apprepublic.view.MainActivity"
-72-->C:\Users\PICHAU\StudioProjects\TheRepubliQApp\app\src\main\AndroidManifest.xml:57:13-73
+72            android:name="br.edu.ifsp.tcc.apprepublic.view.LoginActivity"
+72-->C:\Users\PICHAU\StudioProjects\TheRepubliQApp\app\src\main\AndroidManifest.xml:57:13-74
 73            android:exported="true" >
 73-->C:\Users\PICHAU\StudioProjects\TheRepubliQApp\app\src\main\AndroidManifest.xml:58:13-36
 74            <intent-filter>

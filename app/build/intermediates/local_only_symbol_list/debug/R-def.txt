@@ -19,6 +19,7 @@ drawable button_rounded_backgroun
 drawable container_components
 drawable edit_text
 drawable edittext_rounded_background
+drawable eye_off
 drawable ic_eye
 drawable ic_launcher_background
 drawable ic_login
@@ -78,6 +79,7 @@ id image_fot
 id image_logo
 id image_trash
 id lembreDeMim
+id password_toggle
 id progressBar
 id recyclerview_service
 id senha

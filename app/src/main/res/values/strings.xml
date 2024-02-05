@@ -7,4 +7,13 @@
     <string name="lembre_de_mim">Lembre de mim</string>
     <string name="entrar">Entrar</string>
     <string name="Cadastrar">Cadastre-se</string>
+    <string name="visualizar">Visualizar</string>
+    <string name="nome">Nome</string>
+    <string name="preco">Preco</string>
+    <string name="alterar_senha">Alterar Senha</string>
+    <string name="email">Email</string>
+    <string name="nova_senha">Nova Senha</string>
+    <string name="confirmar_senha">Confirmar Senha</string>
+    <string name="mudar_senha">Mudar senha</string>
+    <string name="pesquisar">Pesquisar...</string>
 </resources>

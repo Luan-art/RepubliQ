@@ -156,6 +156,10 @@
         "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\layout\\activity_user_solicites.xml"
     },
     {
+        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\drawable_eye_off.xml.flat",
+        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\drawable\\eye_off.xml"
+    },
+    {
         "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },

@@ -69,7 +69,7 @@
             android:name="br.edu.ifsp.tcc.apprepublic.view.RegisterUser"
             android:exported="false" />
         <activity
-            android:name="br.edu.ifsp.tcc.apprepublic.view.MainActivity"
+            android:name="br.edu.ifsp.tcc.apprepublic.view.LoginActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
