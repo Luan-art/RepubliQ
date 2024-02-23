@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+<androidx.core.widget.NestedScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -38,9 +39,11 @@
 
     <EditText
         android:id="@+id/edittext_user"
+        android:textColorHint="@color/gray"
         android:hint="@string/login"
         android:drawableEnd="@drawable/ic_login"
         style="@style/Edit_Text"
+        android:textColor="@android:color/black"
         android:inputType="text"
         app:layout_constraintStart_toStartOf="@id/containerComponentes"
         app:layout_constraintEnd_toEndOf="@id/containerComponentes"
@@ -50,17 +53,21 @@
         android:id="@+id/password_toggle"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
+        android:hint="@string/senha"
+        android:textColorHint="@color/gray"
         app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@android:color/black"
         app:layout_constraintStart_toStartOf="@id/containerComponentes"
         app:layout_constraintEnd_toEndOf="@id/containerComponentes"
-        app:layout_constraintTop_toBottomOf="@id/edittext_user"        app:passwordToggleContentDescription="true">
+        app:layout_constraintTop_toBottomOf="@id/edittext_user"
+        app:passwordToggleContentDescription="true">
 
         <EditText
             android:id="@+id/edittext_password"
             style="@style/Edit_Text"
-            android:hint="@string/senha"
             android:inputType="textPassword"
-          />
+            android:textColor="@android:color/black"
+            />
 
     </com.google.android.material.textfield.TextInputLayout>
 

@@ -21,9 +21,11 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_visualiza"
         style="@style/Button"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginBottom="30dp"
         android:text="@string/visualizar"
         android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_preco" />
@@ -34,13 +36,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
         android:text="@string/nome"
-        android:textStyle="bold"
         android:textAllCaps="true"
         android:textColor="@color/black"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.618"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/image_fot"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -49,13 +51,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:text="@string/preco"
-        android:textStyle="bold"
         android:textAllCaps="true"
         android:textColor="@color/black"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.625"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/image_fot"
         app:layout_constraintTop_toBottomOf="@id/text_title_nome" />
 
 

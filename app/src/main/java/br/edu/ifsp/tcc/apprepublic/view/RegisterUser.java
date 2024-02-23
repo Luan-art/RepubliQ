@@ -34,8 +34,6 @@ public class RegisterUser extends AppCompatActivity implements RegisterUserMVP.V
     private Spinner spinnerGenero;
     private CheckBox checkboxProp;
     private Button btnCadastrar;
-    private CheckBox visivel;
-    private boolean isPasswordVisible = true;
     private RegisterUserPresenter presenter;
 
     @Override
@@ -75,10 +73,6 @@ public class RegisterUser extends AppCompatActivity implements RegisterUserMVP.V
             presenter.register(user);
         });
 
-        visivel.setOnCheckedChangeListener((buttonView, isChecked) -> {
-            isPasswordVisible = isChecked;
-            togglePasswordVisibility();
-        });
     }
 
     private void findById() {
@@ -88,11 +82,10 @@ public class RegisterUser extends AppCompatActivity implements RegisterUserMVP.V
         edittextTel = findViewById(R.id.edittext_Tel);
         edittextTexDtaNascimento = findViewById(R.id.edittext_TexDtaNascimento);
         edittextEmail = findViewById(R.id.edittext_email);
-        edittextSenha = findViewById(R.id.edittext_Senha);
+        edittextSenha = findViewById(R.id.edittext_password);
         spinnerGenero = findViewById(R.id.spinner_Genero);
         checkboxProp = findViewById(R.id.checkbox_Prop);
         btnCadastrar = findViewById(R.id.btn_cad);
-        visivel = findViewById(R.id.showSenha);
 
         Objects.requireNonNull(getSupportActionBar()).setTitle("Cadastrar Novo Usuario");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -119,18 +112,10 @@ public class RegisterUser extends AppCompatActivity implements RegisterUserMVP.V
         spinnerGenero.setAdapter(genderAdapter);
     }
 
-    private void togglePasswordVisibility() {
-        int inputType = isPasswordVisible ?
-                InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD :
-                (InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
-
-        edittextSenha.setInputType(inputType);
-    }
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == android.R.id.home) {
-            finish(); // Fecha a atividade atual
+            finish();
             return true;
         }
         return super.onOptionsItemSelected(item);

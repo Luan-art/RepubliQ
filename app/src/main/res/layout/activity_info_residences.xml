@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/backgroundAppColor"
+    android:background="@drawable/background"
     tools:context="br.edu.ifsp.tcc.apprepublic.view.InfoResidences">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -23,6 +23,17 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+        <View
+            android:id="@+id/containerComponentes"
+            style="@style/ConteinerComponents"
+            android:layout_width="352dp"
+            android:layout_height="859dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_fot"
+            app:layout_constraintVertical_bias="0.101" />
+
         <TextView
             android:id="@+id/text_titulo_label"
             android:layout_width="91dp"
@@ -31,10 +42,9 @@
             android:text="Título:"
             android:textColor="@color/black"
             android:textSize="30sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.078"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/image_fot" />
+            app:layout_constraintEnd_toEndOf="@+id/containerComponentes"
+            app:layout_constraintStart_toStartOf="@+id/containerComponentes"
+            app:layout_constraintTop_toTopOf="@id/containerComponentes" />
 
         <TextView
             android:id="@+id/text_titulo"
@@ -42,11 +52,11 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:text="Nome da Residência"
+            android:gravity="center"
             android:textColor="@color/black"
             android:textSize="20sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.458"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/containerComponentes"
+            app:layout_constraintStart_toStartOf="@+id/containerComponentes"
             app:layout_constraintTop_toBottomOf="@+id/text_titulo_label" />
 
         <TextView
@@ -57,9 +67,8 @@
             android:text="Descrição:"
             android:textColor="@color/black"
             android:textSize="30sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.079"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/containerComponentes"
+            app:layout_constraintStart_toStartOf="@+id/containerComponentes"
             app:layout_constraintTop_toBottomOf="@+id/text_titulo" />
 
         <TextView
@@ -68,11 +77,11 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:text="Descrição da Residência"
+            android:gravity="center"
             android:textColor="@color/black"
             android:textSize="20sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.496"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/containerComponentes"
+            app:layout_constraintStart_toStartOf="@+id/containerComponentes"
             app:layout_constraintTop_toBottomOf="@+id/text_descricao_label" />
 
         <TextView
@@ -83,22 +92,21 @@
             android:text="Tipo:"
             android:textColor="@color/black"
             android:textSize="30sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.052"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/containerComponentes"
+            app:layout_constraintStart_toStartOf="@+id/containerComponentes"
             app:layout_constraintTop_toBottomOf="@+id/text_descricao" />
 
         <TextView
             android:id="@+id/text_email"
-            android:layout_width="253dp"
-            android:layout_height="31dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="Tipo de Residência"
+            android:gravity="center"
             android:textColor="@color/black"
             android:textSize="20sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.417"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/containerComponentes"
+            app:layout_constraintStart_toStartOf="@+id/containerComponentes"
             app:layout_constraintTop_toBottomOf="@+id/text_tipo_label" />
 
         <TextView
@@ -109,22 +117,21 @@
             android:text="Preço:"
             android:textColor="@color/black"
             android:textSize="30sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.059"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/containerComponentes"
+            app:layout_constraintStart_toStartOf="@+id/containerComponentes"
             app:layout_constraintTop_toBottomOf="@+id/text_email" />
 
         <TextView
             android:id="@+id/text_tel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
+            android:layout_marginTop="16dp"
             android:text="Preço"
+            android:gravity="center"
             android:textColor="@color/black"
             android:textSize="20sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.527"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/containerComponentes"
+            app:layout_constraintStart_toStartOf="@+id/containerComponentes"
             app:layout_constraintTop_toBottomOf="@+id/text_prec_label" />
 
         <TextView
@@ -135,35 +142,35 @@
             android:text="Endereço:"
             android:textColor="@color/black"
             android:textSize="30sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.065"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/containerComponentes"
+            app:layout_constraintStart_toStartOf="@+id/containerComponentes"
             app:layout_constraintTop_toBottomOf="@+id/text_tel" />
 
 
         <TextView
             android:id="@+id/text_endereco"
-            android:layout_width="374dp"
-            android:layout_height="113dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginTop="28dp"
             android:text="Endereço da Residência"
             android:textColor="@color/black"
+            android:gravity="center"
             android:textSize="20sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/containerComponentes"
+            app:layout_constraintStart_toStartOf="@+id/containerComponentes"
             app:layout_constraintTop_toBottomOf="@+id/text_endereco_label" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnRequest"
-            android:layout_width="375dp"
-            android:layout_height="63dp"
-            android:layout_marginTop="40dp"
-            android:backgroundTint="@color/black"
+            style="@style/Button"
+            android:layout_width="286dp"
+            android:layout_height="75dp"
             android:text="Solicitar"
             android:textColor="@color/white"
             android:textSize="30sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="@id/containerComponentes"
+            app:layout_constraintEnd_toEndOf="@+id/containerComponentes"
+            app:layout_constraintStart_toStartOf="@+id/containerComponentes"
             app:layout_constraintTop_toBottomOf="@+id/text_endereco" />
 
 

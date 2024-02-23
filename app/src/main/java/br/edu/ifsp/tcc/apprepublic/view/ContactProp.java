@@ -63,7 +63,7 @@ public class ContactProp extends AppCompatActivity implements ContactPropMVP.Vie
 
         textEmail = findViewById(R.id.text_email);
         textTel = findViewById(R.id.text_tel);
-        btnContact = findViewById(R.id.btnMens);
+        btnContact = findViewById(R.id.btn_entrarContato);
     }
 
 
@@ -87,12 +87,10 @@ public class ContactProp extends AppCompatActivity implements ContactPropMVP.Vie
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case android.R.id.home:
-                onBackPressed(); // Isso faz com que a ação padrão de voltar seja chamada
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
+        if (item.getItemId() == android.R.id.home) {
+            onBackPressed();
+            return true;
         }
+        return super.onOptionsItemSelected(item);
     }
 }

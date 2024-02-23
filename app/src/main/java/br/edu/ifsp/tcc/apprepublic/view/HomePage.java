@@ -165,9 +165,9 @@ public class HomePage extends AppCompatActivity implements HomePageMVP.View {
             case R.id.action_logout:
                 presenter.logout();
                 return true;
-            case R.id.action_edit_password:
-                presenter.altSenha();
-                return true;
+       //     case R.id.action_edit_password:
+         //       presenter.altSenha();
+           //     return true;
             case R.id.action_list_user_solicition:
                 presenter.userSolicit();
                 return true;

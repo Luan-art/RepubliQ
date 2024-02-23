@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@color/backgroundAppColor"
+    android:background="@drawable/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="br.edu.ifsp.tcc.apprepublic.view.ContactProp">
@@ -12,14 +12,26 @@
         android:id="@+id/text_descricao_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
         android:text="Contatos:"
         android:textColor="@color/black"
         android:textSize="30sp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"
-        />
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/containerComponentes"
+        style="@style/ConteinerComponents"
+        android:layout_width="357dp"
+        android:layout_height="541dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_descricao_label"
+        app:layout_constraintVertical_bias="0.355" />
 
     <TextView
         android:id="@+id/text_tipo_label"
@@ -29,9 +41,9 @@
         android:text="Email:"
         android:textColor="@color/black"
         android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/containerComponentes"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/containerComponentes"
         app:layout_constraintTop_toBottomOf="@+id/text_descricao_label" />
 
     <TextView
@@ -42,8 +54,8 @@
         android:text="email user"
         android:textColor="@color/black"
         android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/containerComponentes"
+        app:layout_constraintStart_toStartOf="@+id/containerComponentes"
         app:layout_constraintTop_toBottomOf="@+id/text_tipo_label" />
 
     <TextView
@@ -54,38 +66,32 @@
         android:text="Telefone:"
         android:textColor="@color/black"
         android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.513"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/containerComponentes"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="@+id/containerComponentes"
         app:layout_constraintTop_toBottomOf="@+id/text_email" />
 
     <TextView
         android:id="@+id/text_tel"
         android:layout_width="254dp"
         android:layout_height="56dp"
+        android:layout_marginTop="8dp"
         android:text="telefone"
         android:textColor="@color/black"
         android:textSize="20sp"
-        app:layout_constraintTop_toBottomOf="@+id/text_prec_label"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="8dp"
-        />
+        app:layout_constraintEnd_toEndOf="@+id/containerComponentes"
+        app:layout_constraintStart_toStartOf="@+id/containerComponentes"
+        app:layout_constraintTop_toBottomOf="@+id/text_prec_label" />
 
-    <Button
-        android:id="@+id/btnMens"
-        android:layout_width="283dp"
-        android:layout_height="69dp"
-        android:layout_marginTop="48dp"
-        android:backgroundTint="@color/black"
-        android:text="Mensagem"
-        android:textColor="@color/white"
-        android:textSize="30sp"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_entrarContato"
+        style="@style/Button"
+        android:layout_marginBottom="30dp"
+        android:drawableEnd="@android:drawable/stat_sys_phone_call"
+        android:text="Entrar em contato"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_tel"
-        app:layout_constraintVertical_bias="0.22" />
+        app:layout_constraintTop_toBottomOf="@+id/text_tel" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

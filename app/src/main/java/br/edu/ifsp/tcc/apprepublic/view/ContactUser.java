@@ -54,7 +54,7 @@ public class ContactUser extends AppCompatActivity implements ContactUserMVP.Vie
 
         textEmail = findViewById(R.id.text_email);
         textTel = findViewById(R.id.text_tel);
-        btnContact = findViewById(R.id.btnMens);
+        btnContact = findViewById(R.id.btn_entrarContato);
 
     }
 

@@ -25,6 +25,8 @@ public class LoginActivity extends AppCompatActivity implements MainActivityMVP.
     private EditText textPassword;
     private Button enterButton;
     private TextView cadastrarTextView;
+
+    private TextView changePassword;
     private SharedPreferences sharedPreferences;
     private CheckBox lembrarDeMim;
     private MainActivityPresenter presenter;
@@ -70,6 +72,7 @@ public class LoginActivity extends AppCompatActivity implements MainActivityMVP.
         });
 
         cadastrarTextView.setOnClickListener(v -> presenter.cadast());
+        changePassword.setOnClickListener(v -> presenter.changePass());
 
         lembrarDeMim.setOnCheckedChangeListener((buttonView, isChecked) -> {
             SharedPreferences.Editor editor = sharedPreferences.edit();
@@ -86,6 +89,7 @@ public class LoginActivity extends AppCompatActivity implements MainActivityMVP.
         enterButton = findViewById(R.id.button_enter);
         cadastrarTextView = findViewById(R.id.text_cadastrar);
         lembrarDeMim = findViewById(R.id.lembreDeMim);
+        changePassword=findViewById(R.id.esqueceuSenha);
     }
 
     public boolean isLembrarDeMimChecked() {

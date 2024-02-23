@@ -27,8 +27,9 @@ public class UpdatePassword extends AppCompatActivity implements UpdatePasswordM
     private EditText edittextNovaSenha;
     private EditText edittextConfirmarNovaSenha;
     private Button btnAlterarSenha;
-    private CheckBox visivel;
-    private CheckBox visivelCon;
+
+ // private CheckBox visivel;
+ // private CheckBox visivelCon;
 
 //  private boolean isPasswordVisible = true;
  // private boolean isPasswordVisibleCon = true;
@@ -73,7 +74,7 @@ public class UpdatePassword extends AppCompatActivity implements UpdatePasswordM
         edittextNovaSenha = findViewById(R.id.edittext_novaSenha);
         edittextConfirmarNovaSenha = findViewById(R.id.edittext_confirmarNovaSenha);
         btnAlterarSenha = findViewById(R.id.btn_alterarSenha);
-        visivel = findViewById(R.id.showSenha);
+       // visivel = findViewById(R.id.showSenha);
  //       visivelCon = findViewById(R.id.showConSenha);
     }
 
@@ -86,22 +87,11 @@ public class UpdatePassword extends AppCompatActivity implements UpdatePasswordM
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
     }
 
-    private void togglePasswordVisibility(boolean isVisible, EditText editText) {
-        // Alterna entre mostrar e ocultar a senha
-        int inputType = isVisible ?
-                InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD :
-                (InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
-
-        editText.setInputType(inputType);
-    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == android.R.id.home) {
-            // Use o TaskStackBuilder para criar uma pilha de navegação
-            TaskStackBuilder.create(this)
-                    .addNextIntentWithParentStack(new Intent(this, HomePage.class))
-                    .startActivities();
+            finish();
             return true;
         }
         return super.onOptionsItemSelected(item);
