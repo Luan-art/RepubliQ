@@ -16,7 +16,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
-            android:text="Registrar usuario"
+            android:text="@string/registrar_usuario"
             android:textColor="@color/black"
             android:textSize="40sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -52,7 +52,7 @@
             android:id="@+id/edittext_Nome"
             style="@style/Edit_Text"
             android:layout_marginTop="30dp"
-            android:hint="Nome"
+            android:hint="@string/nome"
             android:textColorHint="@color/gray"
             android:inputType="text"
             android:textColor="@color/black"
@@ -64,7 +64,7 @@
             android:id="@+id/edittext_Login"
             style="@style/Edit_Text"
             android:layout_marginTop="30dp"
-            android:hint="Login"
+            android:hint="@string/login"
             android:textColorHint="@color/gray"
             android:inputType="text"
             android:textColor="@color/black"
@@ -73,23 +73,25 @@
             app:layout_constraintTop_toBottomOf="@+id/edittext_Nome" />
 
 
-        <EditText
+        <com.vicmikhailau.maskededittext.MaskedEditText
             android:id="@+id/edittext_Cpf"
             style="@style/Edit_Text"
             android:layout_marginTop="30dp"
-            android:hint="CPF"
+            android:hint="@string/cpf"
+            app:mask="###.###.###-##"
             android:textColorHint="@color/gray"
-            android:inputType="numberDecimal"
+            android:inputType="number"
             android:textColor="@color/black"
             app:layout_constraintEnd_toEndOf="@+id/containerComponentes"
             app:layout_constraintStart_toStartOf="@+id/containerComponentes"
             app:layout_constraintTop_toBottomOf="@+id/edittext_Login" />
 
-        <EditText
+        <com.vicmikhailau.maskededittext.MaskedEditText
             android:id="@+id/edittext_Tel"
             style="@style/Edit_Text"
             android:layout_marginTop="30dp"
-            android:hint="Telefone"
+            android:hint="@string/telefone"
+            app:mask="(##)#####-####"
             android:textColorHint="@color/gray"
             android:inputType="phone"
             android:textColor="@color/black"
@@ -97,13 +99,14 @@
             app:layout_constraintStart_toStartOf="@+id/containerComponentes"
             app:layout_constraintTop_toBottomOf="@+id/edittext_Cpf" />
 
-        <EditText
+        <com.vicmikhailau.maskededittext.MaskedEditText
             android:id="@+id/edittext_TexDtaNascimento"
             style="@style/Edit_Text"
             android:layout_marginTop="30dp"
-            android:hint="Data Nascimento"
+            android:hint="@string/data_nascimento"
             android:textColorHint="@color/gray"
             android:inputType="date"
+            app:mask="##/##/####"
             android:textColor="@color/black"
             app:layout_constraintEnd_toEndOf="@+id/containerComponentes"
             app:layout_constraintStart_toStartOf="@+id/containerComponentes"
@@ -113,7 +116,7 @@
             android:id="@+id/edittext_email"
             style="@style/Edit_Text"
             android:layout_marginTop="30dp"
-            android:hint="Email"
+            android:hint="@string/email"
             android:textColorHint="@color/gray"
             android:inputType="textEmailAddress"
             android:textColor="@color/black"
@@ -148,7 +151,7 @@
             android:id="@+id/textview_Genero_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Gênero"
+            android:text="@string/genero"
             android:textColor="@color/black"
             android:textSize="24sp"
             android:layout_marginTop="10dp"
@@ -175,9 +178,9 @@
             android:layout_width="268dp"
             android:layout_height="48dp"
             android:layout_marginTop="24dp"
-            android:hint="Proprietario"
+            android:hint="@string/proprietario"
             android:textColorHint="@color/black"
-            android:textSize="20dp"
+            android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -187,7 +190,7 @@
             android:id="@+id/btn_cad"
             style="@style/Button"
             android:layout_marginBottom="40dp"
-            android:text="Registrar"
+            android:text="@string/registrar"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

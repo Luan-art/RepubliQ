@@ -4,16 +4,15 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.text.InputType;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CheckBox;
-import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
+
+import com.vicmikhailau.maskededittext.MaskedEditText;
 
 import java.util.Objects;
 
@@ -26,9 +25,9 @@ import br.edu.ifsp.tcc.apptherrepubliq.R;
 public class RegisterUser extends AppCompatActivity implements RegisterUserMVP.View {
     private EditText edittextNome;
     private EditText edittextLogin;
-    private EditText edittextCpf;
-    private EditText edittextTel;
-    private EditText edittextTexDtaNascimento;
+    private MaskedEditText edittextCpf;
+    private MaskedEditText edittextTel;
+    private MaskedEditText edittextTexDtaNascimento;
     private EditText edittextEmail;
     private EditText edittextSenha;
     private Spinner spinnerGenero;
@@ -50,9 +49,9 @@ public class RegisterUser extends AppCompatActivity implements RegisterUserMVP.V
         btnCadastrar.setOnClickListener(v -> {
             String nome = edittextNome.getText().toString();
             String login = edittextLogin.getText().toString();
-            String cpf = edittextCpf.getText().toString();
-            String telefone = edittextTel.getText().toString();
-            String dataNascimento = edittextTexDtaNascimento.getText().toString();
+            String cpf = edittextCpf.getUnMaskedText();
+            String telefone = edittextTel.getUnMaskedText();
+            String dataNascimento = Objects.requireNonNull(edittextTexDtaNascimento.getText()).toString();
             String email = edittextEmail.getText().toString();
             String senha = edittextSenha.getText().toString();
             String genero = spinnerGenero.getSelectedItem().toString();

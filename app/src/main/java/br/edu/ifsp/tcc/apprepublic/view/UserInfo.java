@@ -11,6 +11,7 @@ import android.view.MenuItem;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -32,16 +33,14 @@ import retrofit2.Response;
 
 public class UserInfo extends AppCompatActivity implements UserInfoMVP.View {
 
-    private UserInfoPresenter presenter;
     private UserInfoAdpater mAdapter;
     private List<User> userInfoList;
-    private EditText editTextSearch;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_info);
-        presenter = new UserInfoPresenter(this, this);
+        UserInfoPresenter presenter = new UserInfoPresenter(this, this);
 
         Intent intent = getIntent();
         long requestId = intent.getLongExtra("requestId", -1);
@@ -77,7 +76,7 @@ public class UserInfo extends AppCompatActivity implements UserInfoMVP.View {
         call.enqueue(new Callback<List<User>>() {
             @SuppressLint("NotifyDataSetChanged")
             @Override
-            public void onResponse(Call<List<User>> call, Response<List<User>> response) {
+            public void onResponse(@NonNull Call<List<User>> call, @NonNull Response<List<User>> response) {
                 if (response.isSuccessful()) {
                     userInfoList = response.body();
                     mAdapter.setUserInfoList(userInfoList);
@@ -88,14 +87,14 @@ public class UserInfo extends AppCompatActivity implements UserInfoMVP.View {
             }
 
             @Override
-            public void onFailure(Call<List<User>> call, Throwable t) {
+            public void onFailure(@NonNull Call<List<User>> call, @NonNull Throwable t) {
                 showMessage("Erro na solicitação da API: " + t.getMessage());
             }
         });
     }
 
     private void setupSearch() {
-        editTextSearch = findViewById(R.id.editTextSearch);
+        EditText editTextSearch = findViewById(R.id.editTextSearch);
         editTextSearch.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
@@ -145,12 +144,10 @@ public class UserInfo extends AppCompatActivity implements UserInfoMVP.View {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case android.R.id.home:
-                finish(); // Fecha a atividade atual
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
+        if (item.getItemId() == android.R.id.home) {
+            finish(); // Fecha a atividade atual
+            return true;
         }
+        return super.onOptionsItemSelected(item);
     }
 }

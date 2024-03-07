@@ -6,7 +6,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -17,7 +16,7 @@ import br.edu.ifsp.tcc.apprepublic.view.InfoResidences;
 import br.edu.ifsp.tcc.apptherrepubliq.R;
 
 public class HomePageAdapter extends RecyclerView.Adapter<HomePageAdapter.ViewHolder> {
-    private Context context;
+    private final Context context;
     private List<HomeEntity> homeList;
 
     public HomePageAdapter(Context context, List<HomeEntity> homeList) {
@@ -40,14 +39,11 @@ public class HomePageAdapter extends RecyclerView.Adapter<HomePageAdapter.ViewHo
         holder.textPreco.setText(String.valueOf(home.getPreco()));
 
 
-        holder.btnDados.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        holder.btnDados.setOnClickListener(view -> {
 
-                Intent intent = new Intent(context, InfoResidences.class);
-                intent.putExtra("home_id", home.getId()); // Envie o ID da casa ou qualquer outra informação necessária
-                context.startActivity(intent);
-            }
+            Intent intent = new Intent(context, InfoResidences.class);
+            intent.putExtra("home_id", home.getId()); // Envie o ID da casa ou qualquer outra informação necessária
+            context.startActivity(intent);
         });
     }
 
@@ -61,7 +57,7 @@ public class HomePageAdapter extends RecyclerView.Adapter<HomePageAdapter.ViewHo
 
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder {
+    public static class ViewHolder extends RecyclerView.ViewHolder {
         TextView textTitleNome;
         TextView textPreco;
 

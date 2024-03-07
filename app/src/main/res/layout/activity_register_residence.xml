@@ -17,7 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
-            android:text="Registrar Residencia"
+            android:text="@string/registrar_residencia"
             android:textColor="@color/black"
             android:textSize="40sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -28,9 +28,10 @@
             android:id="@+id/containerComponentes"
             style="@style/ConteinerComponents"
             android:layout_width="369dp"
-            android:layout_height="483dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="20dp"
+            android:layout_height="495dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.452"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textDescricaotitulo" />
 
@@ -40,7 +41,7 @@
             style="@style/Edit_Text"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
-            android:hint="Titulo"
+            android:hint="@string/tittle"
             android:textColor="@android:color/black"
             android:textColorHint="@color/gray"
             android:inputType="text"
@@ -54,7 +55,7 @@
             android:layout_marginStart="30dp"
             android:layout_marginTop="30dp"
             android:layout_marginEnd="30dp"
-            android:hint="Descrição"
+            android:hint="@string/descricao"
             android:textColor="@android:color/black"
             android:textColorHint="@color/gray"
             android:inputType="text"
@@ -78,9 +79,10 @@
         <Spinner
             android:id="@+id/spinner_TipoMoradia"
             android:layout_width="300dp"
-            android:layout_height="30dp"
+            android:layout_height="48dp"
             android:layout_marginTop="20dp"
             android:background="@drawable/spinner_background"
+            android:contentDescription="Selecione o tipo de moradia"
             app:layout_constraintEnd_toEndOf="@+id/containerComponentes"
             app:layout_constraintStart_toStartOf="@+id/containerComponentes"
             app:layout_constraintTop_toBottomOf="@+id/textTipoMoradia" />
@@ -104,7 +106,7 @@
             android:id="@+id/checkbox_OfertadoMoradia"
             style="@style/CheckBox"
             android:layout_width="223dp"
-            android:layout_height="46dp"
+            android:layout_height="48dp "
             android:layout_marginTop="30dp"
             android:layout_marginBottom="20dp"
             android:hint="Ofertado"
@@ -141,13 +143,14 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textEnderecoMoradia" />
 
-        <EditText
-            android:id="@+id/EditText_textCEP"
+        <com.vicmikhailau.maskededittext.MaskedEditText
+            android:id="@+id/editText_textCEP"
             style="@style/Edit_Text"
             android:layout_marginTop="30dp"
             android:hint="CEP"
+            app:mask="#####-###"
             android:textColorHint="@color/gray"
-            android:inputType="numberDecimal"
+            android:inputType="number"
             android:textColor="@color/black"
             app:layout_constraintEnd_toEndOf="@+id/containerEndereco"
             app:layout_constraintStart_toStartOf="@+id/containerEndereco"
@@ -164,7 +167,7 @@
             android:textColor="@color/black"
             app:layout_constraintEnd_toEndOf="@+id/containerEndereco"
             app:layout_constraintStart_toStartOf="@+id/containerEndereco"
-            app:layout_constraintTop_toBottomOf="@+id/EditText_textCEP" />
+            app:layout_constraintTop_toBottomOf="@+id/editText_textCEP" />
 
         <!-- EditText para País -->
         <EditText

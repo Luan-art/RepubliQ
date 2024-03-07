@@ -14,6 +14,8 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import com.vicmikhailau.maskededittext.MaskedEditText;
+
 import java.text.Collator;
 import java.util.Locale;
 import java.util.Objects;
@@ -32,7 +34,7 @@ public class RegisterResidence extends AppCompatActivity implements RegisterResi
     private EditText edittexDesc;
     private EditText edittextTitulo;
     private EditText edittextPrec;
-    private EditText edittextCep;
+    private MaskedEditText edittextCep;
     private EditText edittextNum;
     private EditText edittextPais;
     private EditText edittextEstado;
@@ -63,7 +65,7 @@ public class RegisterResidence extends AppCompatActivity implements RegisterResi
                 String titulo = edittextTitulo.getText().toString();
                 String desc = edittexDesc.getText().toString();
                 String prec = edittextPrec.getText().toString();
-                String cep = edittextCep.getText().toString();
+                String cep = edittextCep.getUnMaskedText();
                 String pais = edittextPais.getText().toString();
                 String estado = edittextEstado.getText().toString();
                 String cidade = edittextCidade.getText().toString();
@@ -132,7 +134,7 @@ public class RegisterResidence extends AppCompatActivity implements RegisterResi
         edittextTitulo= findViewById(R.id.edittext_Titulo);
         edittexDesc = findViewById(R.id.edittext_DescricaoMoradia);
         edittextPrec = findViewById(R.id.edittext_PrecoMoradia);
-        edittextCep = findViewById(R.id.EditText_textCEP);
+        edittextCep = findViewById(R.id.editText_textCEP);
         edittextNum = findViewById(R.id.edittext_textNumero);
         edittextPais = findViewById(R.id.edittext_Pais);
         edittextEstado = findViewById(R.id.edittext_Estado);

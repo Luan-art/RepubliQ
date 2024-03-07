@@ -16,7 +16,8 @@
         android:layout_marginEnd="16dp"
         android:src="@android:drawable/ic_menu_delete"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@android:color/black" />
 
     <ImageView
         android:id="@+id/image_dados"
@@ -26,7 +27,8 @@
         android:layout_marginEnd="16dp"
         android:src="@android:drawable/ic_menu_call"
         app:layout_constraintEnd_toStartOf="@+id/image_trash"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@android:color/black" />
 
     <TextView
         android:id="@+id/text_residences_listitem"
@@ -34,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="28dp"
-        android:text="Residencia"
+        android:text="@string/residencia"
         android:textAllCaps="true"
         android:textColor="@color/black"
         android:textSize="20sp"

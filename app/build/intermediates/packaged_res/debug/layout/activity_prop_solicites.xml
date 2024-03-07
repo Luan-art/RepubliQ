@@ -11,7 +11,7 @@
         android:id="@+id/editTextSearch"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:hint="Pesquisar..."
+        android:hint="@string/pesquisar"
         android:textColor="@android:color/black"
         android:drawableStart="@android:drawable/ic_menu_search"
         android:drawablePadding="8dp"

@@ -13,7 +13,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 import br.edu.ifsp.tcc.apprepublic.model.home.HomeEntity;
-import br.edu.ifsp.tcc.apprepublic.mvp.PropSolicitesMVP;
 import br.edu.ifsp.tcc.apprepublic.presenter.PropSolicitiesPresenter;
 import br.edu.ifsp.tcc.apptherrepubliq.R;
 
@@ -44,12 +43,9 @@ public class PropSolicitiesAdapter extends RecyclerView.Adapter<PropSolicitiesAd
         HomeEntity propSolicity = propSolicitiesList.get(position);
 
         holder.textViewPropSolicity.setText(propSolicity.getTitulo());
-        holder.imageViewPropSolicity.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                presenter.info(propSolicity);
-                notifyDataSetChanged();
-            }
+        holder.imageViewPropSolicity.setOnClickListener(view -> {
+            presenter.info(propSolicity);
+            notifyDataSetChanged();
         });
     }
 

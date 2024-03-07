@@ -14,9 +14,7 @@ import java.util.Objects;
 
 import br.edu.ifsp.tcc.apprepublic.model.home.HomeEntity;
 import br.edu.ifsp.tcc.apprepublic.mvp.ContactPropMVP;
-import br.edu.ifsp.tcc.apprepublic.mvp.InfoResidencesMVP;
 import br.edu.ifsp.tcc.apprepublic.presenter.ContactPropPresenter;
-import br.edu.ifsp.tcc.apprepublic.presenter.InfoResidencePresenter;
 import br.edu.ifsp.tcc.apptherrepubliq.R;
 
 public class ContactProp extends AppCompatActivity implements ContactPropMVP.View {

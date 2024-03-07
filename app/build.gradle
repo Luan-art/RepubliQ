@@ -26,19 +26,25 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
+    viewBinding{
+        enabled = true;
+    }
 }
 
 dependencies {
 
     implementation("androidx.appcompat:appcompat:1.6.1")
-    implementation("com.google.android.material:material:1.10.0")
+    implementation("com.google.android.material:material:1.11.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation("com.google.code.gson:gson:2.10.1")
     implementation('com.fasterxml.jackson.core:jackson-annotations:2.15.2')
-    implementation("androidx.databinding:databinding-runtime:8.1.4")
+    implementation("androidx.databinding:databinding-runtime:8.2.2")
     implementation("com.jakewharton.threetenabp:threetenabp:1.2.4")
+    //Maske https://github.com/VicMikhailau/MaskedEditText
+    implementation ("io.github.vicmikhailau:MaskedEditText:4.0.6")
 
 
 

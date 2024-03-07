@@ -2,16 +2,11 @@ package br.edu.ifsp.tcc.apprepublic.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.TaskStackBuilder;
 import android.content.Context;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.text.InputType;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.Button;
-import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -28,11 +23,7 @@ public class UpdatePassword extends AppCompatActivity implements UpdatePasswordM
     private EditText edittextConfirmarNovaSenha;
     private Button btnAlterarSenha;
 
- // private CheckBox visivel;
- // private CheckBox visivelCon;
 
-//  private boolean isPasswordVisible = true;
- // private boolean isPasswordVisibleCon = true;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,15 +45,6 @@ public class UpdatePassword extends AppCompatActivity implements UpdatePasswordM
             }
          });
 
-   //     visivel.setOnCheckedChangeListener((buttonView, isChecked) -> {
-     //       isPasswordVisible = isChecked;
-       //     togglePasswordVisibility(isPasswordVisible, edittextNovaSenha);
-        //});
-
-       // visivelCon.setOnCheckedChangeListener((buttonView, isChecked) -> {
-         //   isPasswordVisibleCon = isChecked;
-           // togglePasswordVisibility(isPasswordVisibleCon, edittextConfirmarNovaSenha);
-        //});
     }
 
     private void findById() {
@@ -74,8 +56,6 @@ public class UpdatePassword extends AppCompatActivity implements UpdatePasswordM
         edittextNovaSenha = findViewById(R.id.edittext_novaSenha);
         edittextConfirmarNovaSenha = findViewById(R.id.edittext_confirmarNovaSenha);
         btnAlterarSenha = findViewById(R.id.btn_alterarSenha);
-       // visivel = findViewById(R.id.showSenha);
- //       visivelCon = findViewById(R.id.showConSenha);
     }
 
     public Context getContext() {

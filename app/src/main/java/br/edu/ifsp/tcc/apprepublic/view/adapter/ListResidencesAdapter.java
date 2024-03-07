@@ -16,7 +16,7 @@ import br.edu.ifsp.tcc.apprepublic.mvp.ListResidencesMVP;
 import br.edu.ifsp.tcc.apptherrepubliq.R;
 
 public class ListResidencesAdapter extends RecyclerView.Adapter<ListResidencesAdapter.ViewHolder> {
-    private Context context;
+    private final Context context;
     private List<HomeEntity> residenceList;
 
     private ListResidencesMVP.Presenter presenter;
@@ -47,30 +47,17 @@ public class ListResidencesAdapter extends RecyclerView.Adapter<ListResidencesAd
         }else{
             holder.imageEdit.setImageResource(android.R.drawable.checkbox_off_background);
         }
-        holder.imageEdit.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if(residence.getOfertado()){
-                    desativar(residence);
-                }else{
-                    ativar(residence);
-                }
+        holder.imageEdit.setOnClickListener(view -> {
+            if(residence.getOfertado()){
+                desativar(residence);
+            }else{
+                ativar(residence);
             }
         });
 
-        holder.imageDados.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                editar(residence);
-            }
-        });
+        holder.imageDados.setOnClickListener(view -> editar(residence));
 
-        holder.imageTrash.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                excluir(residence);
-            }
-        });
+        holder.imageTrash.setOnClickListener(view -> excluir(residence));
     }
 
     @SuppressLint("NotifyDataSetChanged")
@@ -107,7 +94,7 @@ public class ListResidencesAdapter extends RecyclerView.Adapter<ListResidencesAd
         this.residenceList = residenceList;
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder {
+    public static class ViewHolder extends RecyclerView.ViewHolder {
         ImageView imageEdit;
 
         ImageView imageDados;

@@ -1,226 +1,218 @@
 [
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/layout_activity_register_user.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/layout/activity_register_user.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\mipmap-xhdpi\\ic_launcher_foreground.png"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/drawable_spinner_background.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/drawable/spinner_background.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/layout_activity_prop_solicites.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/layout/activity_prop_solicites.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\layout_activity_user_info.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\layout\\activity_user_info.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/drawable_styles.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/drawable/styles.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\layout_activity_register_residence.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\layout\\activity_register_residence.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/mipmap-xxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\drawable\\ic_launcher_background.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/drawable_eye_off.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/drawable/eye_off.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\drawable_ic_eye.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\drawable\\ic_eye.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/layout_activity_update_password.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/layout/activity_update_password.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/layout_activity_change_user_information.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/layout/activity_change_user_information.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\menu_menu_home.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\menu\\menu_home.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/drawable_ic_email.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/drawable/ic_email.xml"
     },
     {
-        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:/layout_activity_register_residence.xml.flat",
-        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-35:/layout/activity_register_residence.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\layout_list_view_residences_solicities.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\layout\\list_view_residences_solicities.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/drawable_button.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/drawable/button.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\layout_activity_list_residences.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\layout\\activity_list_residences.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\layout_activity_edit_residence.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\layout\\activity_edit_residence.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/layout_activity_main.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\drawable_ic_email.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\drawable\\ic_email.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/layout_activity_contact_user.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/layout/activity_contact_user.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\drawable_styles.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\drawable\\styles.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/drawable_ic_launcher_background.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\drawable_button_rounded_backgroun.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\drawable\\button_rounded_backgroun.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/drawable_button_rounded_backgroun.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/drawable/button_rounded_backgroun.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/layout_activity_contact_prop.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/layout/activity_contact_prop.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\layout_list_view_residences.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\layout\\list_view_residences.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/drawable_ic_logo.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/drawable/ic_logo.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\xml\\data_extraction_rules.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/layout_activity_user_info.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/layout/activity_user_info.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\xml\\backup_rules.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/layout_activity_user_solicites.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/layout/activity_user_solicites.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\layout_activity_home_page.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\layout\\activity_home_page.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/mipmap-xhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/layout_list_view_home.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/layout/list_view_home.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\drawable_edit_text.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\drawable\\edit_text.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\drawable_republiq.png.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\drawable\\republiq.png"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/drawable_edittext_rounded_background.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/drawable/edittext_rounded_background.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\layout_activity_main.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\layout\\activity_main.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/drawable_background.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/drawable/background.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\layout_activity_contact_user.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\layout\\activity_contact_user.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/layout_list_view_user.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/layout/list_view_user.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\mipmap-hdpi\\ic_launcher_foreground.png"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\layout_list_view_user.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\layout\\list_view_user.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\drawable_edittext_rounded_background.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\drawable\\edittext_rounded_background.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/xml_data_extraction_rules.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\layout_list_view_home.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\layout\\list_view_home.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/drawable_ic_eye.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/drawable/ic_eye.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\layout_activity_change_user_information.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\layout\\activity_change_user_information.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/layout_activity_register_residence.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/layout/activity_register_residence.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\layout_activity_user_solicites.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\layout\\activity_user_solicites.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/drawable_republiq.png.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/drawable/republiq.png"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/layout_activity_list_residences.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/layout/activity_list_residences.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\drawable_eye_off.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\drawable\\eye_off.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/menu_menu_home.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/menu/menu_home.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/layout_list_view_residences.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/layout/list_view_residences.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\drawable_button.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\drawable\\button.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/xml_backup_rules.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\layout_activity_register_user.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\layout\\activity_register_user.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/layout_activity_info_residences.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/layout/activity_info_residences.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\drawable_ic_logo.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\drawable\\ic_logo.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\layout_activity_info_residences.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\layout\\activity_info_residences.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/layout_list_view_residences_prop_solicities.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/layout/list_view_residences_prop_solicities.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\drawable_ic_login.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\drawable\\ic_login.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/mipmap-hdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\drawable_spinner_arraw_gray.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\drawable\\spinner_arraw_gray.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/drawable_container_components.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/drawable/container_components.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\layout_activity_update_password.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\layout\\activity_update_password.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\drawable_container_components.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\drawable\\container_components.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/drawable_edit_text.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/drawable/edit_text.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\layout_activity_contact_prop.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\layout\\activity_contact_prop.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/drawable_ic_login.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/drawable/ic_login.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\drawable_background.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\drawable\\background.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/layout_activity_home_page.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/layout/activity_home_page.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\layout_activity_prop_solicites.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\layout\\activity_prop_solicites.xml"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/layout_list_view_residences_solicities.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/layout/list_view_residences_solicities.xml"
     },
     {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\layout_list_view_residences_prop_solicities.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\layout\\list_view_residences_prop_solicities.xml"
-    },
-    {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\drawable_spinner_background.xml.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\drawable\\spinner_background.xml"
-    },
-    {
-        "merged": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-33:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Program Files\\Java\\jdk-11.0.12\\daemon\\7.5\\br.edu.ifsp.tcc.apptherrepubliq.app-main-35:\\mipmap-mdpi\\ic_launcher_foreground.png"
+        "merged": "br.edu.ifsp.tcc.apptherrepubliq.app-merged_res-34:/layout_activity_edit_residence.xml.flat",
+        "source": "br.edu.ifsp.tcc.apptherrepubliq.app-main-36:/layout/activity_edit_residence.xml"
     }
 ]

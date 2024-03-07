@@ -2,13 +2,11 @@ package br.edu.ifsp.tcc.apprepublic.view;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.Editable;
@@ -34,8 +32,6 @@ import br.edu.ifsp.tcc.apprepublic.model.home.Tipo;
 import br.edu.ifsp.tcc.apprepublic.model.user.User;
 import br.edu.ifsp.tcc.apprepublic.mvp.HomePageMVP;
 import br.edu.ifsp.tcc.apprepublic.presenter.HomePagePresenter;
-import br.edu.ifsp.tcc.apprepublic.presenter.ListResidencesPresenter;
-import br.edu.ifsp.tcc.apprepublic.security.TokenResponse;
 import br.edu.ifsp.tcc.apprepublic.view.adapter.HomePageAdapter;
 import br.edu.ifsp.tcc.apptherrepubliq.R;
 import retrofit2.Call;
@@ -48,10 +44,6 @@ public class HomePage extends AppCompatActivity implements HomePageMVP.View {
 
     private HomePageAdapter mAdapter;
     private List<HomeEntity> homeList;
-
-    private EditText editTextSearch;
-
-    private Spinner spinner;
 
     private  User user;
 
@@ -96,7 +88,7 @@ public class HomePage extends AppCompatActivity implements HomePageMVP.View {
             }
 
             @Override
-            public void onFailure(Call<List<HomeEntity>> call, Throwable t) {
+            public void onFailure(@NonNull Call<List<HomeEntity>> call, @NonNull Throwable t) {
                 showMessage("Erro na solicitação da API: " + t.getMessage());
                 Log.d("Erro na solicitação HomeList da API:", t.getMessage());
             }
@@ -165,9 +157,6 @@ public class HomePage extends AppCompatActivity implements HomePageMVP.View {
             case R.id.action_logout:
                 presenter.logout();
                 return true;
-       //     case R.id.action_edit_password:
-         //       presenter.altSenha();
-           //     return true;
             case R.id.action_list_user_solicition:
                 presenter.userSolicit();
                 return true;
@@ -186,7 +175,7 @@ public class HomePage extends AppCompatActivity implements HomePageMVP.View {
 
 
     private void setupSearch() {
-        editTextSearch = findViewById(R.id.editTextSearch);
+        EditText editTextSearch = findViewById(R.id.editTextSearch);
         editTextSearch.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
@@ -215,7 +204,7 @@ public class HomePage extends AppCompatActivity implements HomePageMVP.View {
     }
 
     private void populateTipoMoradiaSpinner() {
-        spinner = findViewById(R.id.spinnerFilter);
+        Spinner spinner = findViewById(R.id.spinnerFilter);
 
         // Crie um ArrayAdapter para preencher o Spinner
         ArrayAdapter<String> tipoMoradiaAdapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item);

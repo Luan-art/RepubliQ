@@ -16,6 +16,8 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import com.vicmikhailau.maskededittext.MaskedEditText;
+
 import java.util.Objects;
 
 import br.edu.ifsp.tcc.apprepublic.model.user.Gender;
@@ -28,10 +30,10 @@ public class EditUser extends AppCompatActivity implements ChangeUserInformation
 
     private Button btnCad;
     private EditText edittextNome;
-    private EditText edittextCpf;
+    private MaskedEditText edittextCpf;
     private EditText edittextDtaNascimento;
 
-    private EditText edittextTel;
+    private MaskedEditText edittextTel;
 
     private EditText edittextEmail;
     private Spinner spinnerGenero;
@@ -53,7 +55,7 @@ public class EditUser extends AppCompatActivity implements ChangeUserInformation
     }
 
     private void populateDados() {
-        Long id = getUserId();
+        long id = getUserId();
         if (id != -1) {
             // Recupere as informações do usuário com base no ID
             presenter.getUserById(id);
@@ -69,10 +71,10 @@ public class EditUser extends AppCompatActivity implements ChangeUserInformation
 
                 if (user != null) {
                     String nome = edittextNome.getText().toString();
-                    String cpf = edittextCpf.getText().toString();
+                    String cpf = edittextCpf.getUnMaskedText();
                     String dtaNascimento = edittextDtaNascimento.getText().toString();
                     String email = edittextEmail.getText().toString();
-                    String tel = edittextTel.getText().toString();
+                    String tel = edittextTel.getUnMaskedText();
                     String genero = spinnerGenero.getSelectedItem().toString();
                     boolean prop = checkboxProp.isChecked();
 
@@ -157,9 +159,9 @@ public class EditUser extends AppCompatActivity implements ChangeUserInformation
     @Override
     public void populateUser(User user) {
         edittextNome.setText(user.getName());
-        edittextCpf.setText(user.getCpf());
-        edittextTel.setText(user.getTelefone());
-        edittextDtaNascimento.setText((user.getDataNascimento()));
+        edittextCpf.setText (String.valueOf(user.getCpf()));
+        edittextTel.setText(String.valueOf(user.getTelefone()));
+        edittextDtaNascimento.setText(String.valueOf(user.getDataNascimento()));
         edittextEmail.setText(user.getEmail());
 
         for (int i = 0; i < spinnerGenero.getCount(); i++) {

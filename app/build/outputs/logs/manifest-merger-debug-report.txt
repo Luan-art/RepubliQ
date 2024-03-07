@@ -4,17 +4,19 @@ ADDED from C:\Users\PICHAU\StudioProjects\TheRepubliQApp\app\src\main\AndroidMan
 INJECTED from C:\Users\PICHAU\StudioProjects\TheRepubliQApp\app\src\main\AndroidManifest.xml:2:1-67:12
 INJECTED from C:\Users\PICHAU\StudioProjects\TheRepubliQApp\app\src\main\AndroidManifest.xml:2:1-67:12
 INJECTED from C:\Users\PICHAU\StudioProjects\TheRepubliQApp\app\src\main\AndroidManifest.xml:2:1-67:12
-MERGED from [com.google.android.material:material:1.10.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\31fc64d35410be5bbea9dbaeafbe9ddf\transformed\material-1.10.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:8.2.2] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\84b977279f15f22e0ed80b7eabbf2862\transformed\databinding-runtime-8.2.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.databinding:viewbinding:8.2.2] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\b9a5026acd3154965739185964e5c500\transformed\viewbinding-8.2.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.11.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\795c5bc1db68b6884bfeddb816d13ac1\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\4b929ab10fd806b94f86bd527f89dd0a\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\e5ed6143adbb4e76284add51ce427304\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\44fc53ad3ef1477fcc7b5dbdbf1cb4c0\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.databinding:databinding-runtime:8.1.4] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\48377f674a0e31b009187ff3d6ce5713\transformed\databinding-runtime-8.1.4\AndroidManifest.xml:2:1-7:12
 MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.4] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\39ce5c757f8a7328cad98d19e9ec51f4\transformed\threetenabp-1.2.4\AndroidManifest.xml:2:1-9:12
+MERGED from [io.github.vicmikhailau:MaskedEditText:4.0.6] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\d4f4595ab08e208c6ca1ac3149600fcb\transformed\MaskedEditText-4.0.6\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\7100f70982d85b96c46f0496b7becc56\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\066f493cb7d990cafa5df1ece5ebc364\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\de00681d1b149848a0dab915e4ae741a\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.8.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\08f380f81ec832e9da85b985163f1610\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\7100f70982d85b96c46f0496b7becc56\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\7bc7a5b48c08c285c7816e5896abfab2\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\8255cf8f73e0ec2d884b3aa8102e6cd4\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\c49cd9f9e70a62c0cfb6a9c057db283b\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -37,7 +39,6 @@ MERGED from [androidx.customview:customview:1.1.0] C:\Program Files\Java\jdk-11.
 MERGED from [androidx.core:core:1.9.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\2365384ad980976d11b4bd9d48d00571\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\1f624a3ec658e1a90eb17b72d8f4e5aa\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.databinding:viewbinding:8.1.4] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\b29609051044b975210ad5e8d773343a\transformed\viewbinding-8.1.4\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\4b621581b14be943fef7e9025808a5ef\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\766775ef9b8a5fb948a8a3da34e7cf54\transformed\profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\e6dc352309f6d773a89fb4d56f13b49d\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
@@ -73,12 +74,14 @@ ADDED from C:\Users\PICHAU\StudioProjects\TheRepubliQApp\app\src\main\AndroidMan
 		ADDED from C:\Users\PICHAU\StudioProjects\TheRepubliQApp\app\src\main\AndroidManifest.xml:5:22-64
 application
 ADDED from C:\Users\PICHAU\StudioProjects\TheRepubliQApp\app\src\main\AndroidManifest.xml:7:5-65:19
-MERGED from [com.google.android.material:material:1.10.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\31fc64d35410be5bbea9dbaeafbe9ddf\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.10.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\31fc64d35410be5bbea9dbaeafbe9ddf\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\795c5bc1db68b6884bfeddb816d13ac1\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\795c5bc1db68b6884bfeddb816d13ac1\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\4b929ab10fd806b94f86bd527f89dd0a\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\4b929ab10fd806b94f86bd527f89dd0a\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.4] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\39ce5c757f8a7328cad98d19e9ec51f4\transformed\threetenabp-1.2.4\AndroidManifest.xml:7:5-20
 MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.4] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\39ce5c757f8a7328cad98d19e9ec51f4\transformed\threetenabp-1.2.4\AndroidManifest.xml:7:5-20
+MERGED from [io.github.vicmikhailau:MaskedEditText:4.0.6] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\d4f4595ab08e208c6ca1ac3149600fcb\transformed\MaskedEditText-4.0.6\AndroidManifest.xml:9:5-53
+MERGED from [io.github.vicmikhailau:MaskedEditText:4.0.6] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\d4f4595ab08e208c6ca1ac3149600fcb\transformed\MaskedEditText-4.0.6\AndroidManifest.xml:9:5-53
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\1a68d17af36dbcea950a8a66c430e2e1\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
@@ -209,28 +212,32 @@ uses-sdk
 INJECTED from C:\Users\PICHAU\StudioProjects\TheRepubliQApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\PICHAU\StudioProjects\TheRepubliQApp\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\PICHAU\StudioProjects\TheRepubliQApp\app\src\main\AndroidManifest.xml
-MERGED from [com.google.android.material:material:1.10.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\31fc64d35410be5bbea9dbaeafbe9ddf\transformed\material-1.10.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.10.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\31fc64d35410be5bbea9dbaeafbe9ddf\transformed\material-1.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:databinding-runtime:8.2.2] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\84b977279f15f22e0ed80b7eabbf2862\transformed\databinding-runtime-8.2.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-runtime:8.2.2] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\84b977279f15f22e0ed80b7eabbf2862\transformed\databinding-runtime-8.2.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.2.2] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\b9a5026acd3154965739185964e5c500\transformed\viewbinding-8.2.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.2.2] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\b9a5026acd3154965739185964e5c500\transformed\viewbinding-8.2.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.11.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\795c5bc1db68b6884bfeddb816d13ac1\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\795c5bc1db68b6884bfeddb816d13ac1\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\4b929ab10fd806b94f86bd527f89dd0a\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\4b929ab10fd806b94f86bd527f89dd0a\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\e5ed6143adbb4e76284add51ce427304\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\e5ed6143adbb4e76284add51ce427304\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\44fc53ad3ef1477fcc7b5dbdbf1cb4c0\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\44fc53ad3ef1477fcc7b5dbdbf1cb4c0\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.databinding:databinding-runtime:8.1.4] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\48377f674a0e31b009187ff3d6ce5713\transformed\databinding-runtime-8.1.4\AndroidManifest.xml:5:5-44
-MERGED from [androidx.databinding:databinding-runtime:8.1.4] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\48377f674a0e31b009187ff3d6ce5713\transformed\databinding-runtime-8.1.4\AndroidManifest.xml:5:5-44
 MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.4] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\39ce5c757f8a7328cad98d19e9ec51f4\transformed\threetenabp-1.2.4\AndroidManifest.xml:5:5-44
 MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.4] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\39ce5c757f8a7328cad98d19e9ec51f4\transformed\threetenabp-1.2.4\AndroidManifest.xml:5:5-44
+MERGED from [io.github.vicmikhailau:MaskedEditText:4.0.6] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\d4f4595ab08e208c6ca1ac3149600fcb\transformed\MaskedEditText-4.0.6\AndroidManifest.xml:5:5-7:41
+MERGED from [io.github.vicmikhailau:MaskedEditText:4.0.6] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\d4f4595ab08e208c6ca1ac3149600fcb\transformed\MaskedEditText-4.0.6\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\7100f70982d85b96c46f0496b7becc56\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\7100f70982d85b96c46f0496b7becc56\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\066f493cb7d990cafa5df1ece5ebc364\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\066f493cb7d990cafa5df1ece5ebc364\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\de00681d1b149848a0dab915e4ae741a\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\de00681d1b149848a0dab915e4ae741a\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.8.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\08f380f81ec832e9da85b985163f1610\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.8.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\08f380f81ec832e9da85b985163f1610\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\7100f70982d85b96c46f0496b7becc56\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\7100f70982d85b96c46f0496b7becc56\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\7bc7a5b48c08c285c7816e5896abfab2\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\7bc7a5b48c08c285c7816e5896abfab2\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\8255cf8f73e0ec2d884b3aa8102e6cd4\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -275,8 +282,6 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Program Files\Java\j
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\2365384ad980976d11b4bd9d48d00571\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\1f624a3ec658e1a90eb17b72d8f4e5aa\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\1f624a3ec658e1a90eb17b72d8f4e5aa\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.databinding:viewbinding:8.1.4] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\b29609051044b975210ad5e8d773343a\transformed\viewbinding-8.1.4\AndroidManifest.xml:5:5-44
-MERGED from [androidx.databinding:viewbinding:8.1.4] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\b29609051044b975210ad5e8d773343a\transformed\viewbinding-8.1.4\AndroidManifest.xml:5:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\4b621581b14be943fef7e9025808a5ef\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\4b621581b14be943fef7e9025808a5ef\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Program Files\Java\jdk-11.0.12\caches\transforms-3\766775ef9b8a5fb948a8a3da34e7cf54\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44

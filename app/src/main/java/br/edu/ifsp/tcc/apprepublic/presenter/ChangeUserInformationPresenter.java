@@ -31,38 +31,40 @@
 
         @Override
         public void changeUserInf(User user) {
-            UserService userService = RESTService.getUserService();
-            //DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-
-            Call<User> call = userService.updateUser(getAuthorizationToken(), user.getId(), user);
-            call.enqueue(new Callback<User>() {
-                @Override
-                public void onResponse(@NonNull Call<User> call, @NonNull Response<User> response) {
-                    int responseCode = response.code();
-                    if (response.isSuccessful()) {
-                        // Informe à View que os dados foram alterados com sucesso
-                        view.showMessage("Dados alterados");
-                    } else {
-                        // Informe à View sobre falha na atualização
-                        try {
-                            // Tente obter o corpo da resposta de erro
-                            String errorBody = response.errorBody().string();
-                            view.showMessage("Falha ao alterar os dados. Código de resposta: " + responseCode +
-                                    "\nDetalhes do erro: " + errorBody);
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                            view.showMessage("Erro ao processar resposta de erro");
+            if (user != null) {
+                UserService userService = RESTService.getUserService();
+                Call<User> call = userService.updateUser(getAuthorizationToken(), user.getId(), user);
+                call.enqueue(new Callback<User>() {
+                    @Override
+                    public void onResponse(@NonNull Call<User> call, @NonNull Response<User> response) {
+                        int responseCode = response.code();
+                        if (response.isSuccessful()) {
+                            // Informe à View que os dados foram alterados com sucesso
+                            view.showMessage("Dados alterados");
+                        } else {
+                            // Informe à View sobre falha na atualização
+                            try {
+                                // Tente obter o corpo da resposta de erro
+                                String errorBody = response.errorBody().string();
+                                view.showMessage("Falha ao alterar os dados. Código de resposta: " + responseCode +
+                                        "\nDetalhes do erro: " + errorBody);
+                            } catch (IOException e) {
+                                e.printStackTrace();
+                                view.showMessage("Erro ao processar resposta de erro");
+                            }
                         }
                     }
-                }
 
-
-                @Override
-                public void onFailure(@NonNull Call<User> call, @NonNull Throwable t) {
-                    // Informe à View sobre falha na chamada da API
-                    view.showMessage("Erro na solicitação da API: " + t.getMessage());
-                }
-            });
+                    @Override
+                    public void onFailure(@NonNull Call<User> call, @NonNull Throwable t) {
+                        // Informe à View sobre falha na chamada da API
+                        view.showMessage("Erro na solicitação da API: " + t.getMessage());
+                    }
+                });
+            } else {
+                // Lidar com a situação em que o objeto User é nulo
+                view.showMessage("Erro: Usuário não encontrado");
+            }
         }
 
         @Override
@@ -128,9 +130,8 @@
         private String getAuthorizationToken() {
             SharedPreferences sharedPreferences = context.getSharedPreferences("Prefes", Context.MODE_PRIVATE);
             String accessToken = sharedPreferences.getString("accessToken", null);
-            String authorizationHeader = "Bearer " + accessToken;
 
-            return authorizationHeader;
+            return "Bearer " + accessToken;
         }
 
 

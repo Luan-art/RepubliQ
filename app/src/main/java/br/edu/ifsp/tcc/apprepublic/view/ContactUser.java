@@ -13,11 +13,8 @@ import android.widget.Toast;
 
 import java.util.Objects;
 
-import br.edu.ifsp.tcc.apprepublic.model.home.HomeEntity;
 import br.edu.ifsp.tcc.apprepublic.model.user.User;
-import br.edu.ifsp.tcc.apprepublic.mvp.ContactPropMVP;
 import br.edu.ifsp.tcc.apprepublic.mvp.ContactUserMVP;
-import br.edu.ifsp.tcc.apprepublic.presenter.ContactPropPresenter;
 import br.edu.ifsp.tcc.apprepublic.presenter.ContactUserPresenter;
 import br.edu.ifsp.tcc.apptherrepubliq.R;
 

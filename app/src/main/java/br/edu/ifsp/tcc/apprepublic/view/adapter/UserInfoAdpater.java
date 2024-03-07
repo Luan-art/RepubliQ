@@ -13,8 +13,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 import br.edu.ifsp.tcc.apprepublic.model.user.User;
-import br.edu.ifsp.tcc.apprepublic.mvp.UserInfoMVP;
-import br.edu.ifsp.tcc.apprepublic.presenter.PropSolicitiesPresenter;
 import br.edu.ifsp.tcc.apprepublic.presenter.UserInfoPresenter;
 import br.edu.ifsp.tcc.apptherrepubliq.R;
 
@@ -51,12 +49,9 @@ public class UserInfoAdpater extends RecyclerView.Adapter<UserInfoAdpater.ViewHo
 
         holder.textViewUserName.setText(userInfo.getName());
 
-        holder.imageViewDados.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                presenter.info(userInfo);
-                notifyDataSetChanged();
-            }
+        holder.imageViewDados.setOnClickListener(view -> {
+            presenter.info(userInfo);
+            notifyDataSetChanged();
         });
 
         // Adicione aqui a configuração de outros elementos conforme necessário

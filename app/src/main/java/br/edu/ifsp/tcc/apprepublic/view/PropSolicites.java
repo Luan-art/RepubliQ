@@ -11,6 +11,7 @@ import android.view.MenuItem;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -32,16 +33,14 @@ import retrofit2.Response;
 
 public class PropSolicites extends AppCompatActivity implements PropSolicitesMVP.View {
 
-    private PropSolicitiesPresenter presenter;
     private PropSolicitiesAdapter mAdapter;
     private List<HomeEntity> solicitesList;
-    private EditText editTextSearch;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_prop_solicites);
-        presenter = new PropSolicitiesPresenter(this, this);
+        PropSolicitiesPresenter presenter = new PropSolicitiesPresenter(this, this);
 
         findById();
         initializeRecyclerView();
@@ -74,7 +73,7 @@ public class PropSolicites extends AppCompatActivity implements PropSolicitesMVP
         call.enqueue(new Callback<List<HomeEntity>>() {
             @SuppressLint("NotifyDataSetChanged")
             @Override
-            public void onResponse(Call<List<HomeEntity>> call, Response<List<HomeEntity>> response) {
+            public void onResponse(@NonNull Call<List<HomeEntity>> call, @NonNull Response<List<HomeEntity>> response) {
                 if (response.isSuccessful()) {
                     solicitesList = response.body();
                     mAdapter.setPropSolicitiesList(solicitesList);
@@ -85,14 +84,14 @@ public class PropSolicites extends AppCompatActivity implements PropSolicitesMVP
             }
 
             @Override
-            public void onFailure(Call<List<HomeEntity>> call, Throwable t) {
+            public void onFailure(@NonNull Call<List<HomeEntity>> call, @NonNull Throwable t) {
                 showMessage("Erro na solicitação da API: " + t.getMessage());
             }
         });
     }
 
     private void setupSearch() {
-        editTextSearch = findViewById(R.id.editTextSearch);
+        EditText editTextSearch = findViewById(R.id.editTextSearch);
         editTextSearch.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
@@ -146,13 +145,11 @@ public class PropSolicites extends AppCompatActivity implements PropSolicitesMVP
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case android.R.id.home:
-                Intent intent = new Intent(this, HomePage.class);
-                this.startActivity(intent);
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
+        if (item.getItemId() == android.R.id.home) {
+            Intent intent = new Intent(this, HomePage.class);
+            this.startActivity(intent);
+            return true;
         }
+        return super.onOptionsItemSelected(item);
     }
 }

@@ -42,7 +42,6 @@ public class ListResidences extends AppCompatActivity implements ListResidencesM
 
     private ListResidencesAdapter mAdapter;
     private List<HomeEntity> homeList;
-    private EditText editTextSearch;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -128,7 +127,7 @@ public class ListResidences extends AppCompatActivity implements ListResidencesM
             }
 
             @Override
-            public void onFailure(Call<List<HomeEntity>> call, Throwable t) {
+            public void onFailure(@NonNull Call<List<HomeEntity>> call, @NonNull Throwable t) {
                 showMessage("Erro na solicitação da API: " + t.getMessage());
                 Log.d("Erro na solicitação da API: " , t.getMessage());
 
@@ -167,7 +166,7 @@ public class ListResidences extends AppCompatActivity implements ListResidencesM
 
 
     private void setupSearch() {
-        editTextSearch = findViewById(R.id.editTextSearch);
+        EditText editTextSearch = findViewById(R.id.editTextSearch);
         editTextSearch.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
